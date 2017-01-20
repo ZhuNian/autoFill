@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Auto fill",
+  "description": "Auto fill wanna make life easier and better",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Change To RED"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
